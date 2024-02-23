@@ -30,8 +30,6 @@ public class Student {
     public int getMathScore() {
         return mathScore;
     }
-
- 
     
     @Override
 	public String toString() {
