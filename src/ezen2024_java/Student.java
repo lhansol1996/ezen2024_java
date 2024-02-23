@@ -31,9 +31,11 @@ public class Student {
         return mathScore;
     }
 
+ 
+    
     @Override
 	public String toString() {
-		return "Student [name=" + name + ", koreanScore=" + koreanScore + ", englishScore=" + englishScore
+		return "Student [학생이름=" + name + ", koreanScore=" + koreanScore + ", englishScore=" + englishScore
 				+ ", mathScore=" + mathScore + "]";
 	}
 
@@ -62,7 +64,8 @@ public class Student {
         Student tony = new Student("Tony", 90, 85, 95);
         Student tiffany = new Student("Tiffany", 88, 92, 90);
         Student jennifer = new Student("Jennifer", 95, 89, 44);
-
+        System.out.println(tony.toString());
+        
         int Totaltony = tony.Sum();
         int Totaltiffany = tiffany.Sum();
         int Totaljennifer = jennifer.Sum();
